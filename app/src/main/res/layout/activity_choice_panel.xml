@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/panel6"
+        android:orientation="vertical"
+        tools:context=".ChoicePanel">
+    <TextView android:layout_width="match_parent"
+              android:text="WHO ARE YOU ?-------------"
+              android:textColor="#fff"
+              android:layout_marginBottom="5dp"
+              android:fontFamily="casual"
+              android:textStyle="italic"
+              android:textSize="12dp"
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="match_parent"
+              android:text="WHAT IS YOUR CHOICE......"
+              android:fontFamily="cursive"
+              android:textColor="#fff"
+              android:layout_marginLeft="46dp"
+              android:layout_marginBottom="5dp"
+              android:textStyle="italic"
+              android:textSize="11dp"
+              android:layout_height="wrap_content"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="140dp"
+            android:src="@drawable/panel_profile"
+            app:civ_border_width="1dp"
+            android:id="@+id/imageView_for_bod_admin"
+            app:civ_border_color="#fff"
+            android:layout_gravity="center"
+            android:layout_height="130dp"/>
+    <TextView android:layout_width="match_parent"
+              android:text="BOD ADMIN"
+              android:textStyle="italic"
+              android:textAppearance="@color/colorPrimary"
+              android:fontFamily="cursive"
+              android:textSize="12dp"
+              android:textColor="#fff"
+              android:textAlignment="center"
+              android:layout_height="wrap_content"/>
+    <View android:layout_width="2dp"
+          android:background="#fff"
+          android:layout_gravity="center"
+          android:layout_height="40dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="140dp"
+            android:src="@drawable/panel_profile"
+            app:civ_border_width="1dp"
+            android:id="@+id/imageView_for_member_admin"
+            app:civ_border_color="#fff"
+            android:layout_gravity="center"
+            android:layout_height="130dp"/>
+    <TextView android:layout_width="match_parent"
+              android:text="MEMBER ADMIN"
+              android:textStyle="italic"
+              android:fontFamily="cursive"
+              android:textColor="#fff"
+              android:textSize="12dp"
+              android:textAlignment="center"
+              android:layout_height="wrap_content"/>
+    <View android:layout_width="2dp"
+          android:background="#fff"
+          android:layout_gravity="center"
+          android:layout_height="40dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="140dp"
+            android:src="@drawable/panel_profile"
+            app:civ_border_width="1dp"
+            android:id="@+id/imageView_for_appUser_admin"
+            app:civ_border_color="#fff"
+            android:layout_gravity="center"
+            android:layout_height="130dp"/>
+    <TextView android:layout_width="match_parent"
+              android:text="APP ADMIN"
+              android:fontFamily="cursive"
+              android:textSize="12dp"
+              android:textAlignment="center"
+              android:textStyle="italic"
+              android:textColor="#fff"
+              android:layout_height="wrap_content"/>
+
+</LinearLayout>
